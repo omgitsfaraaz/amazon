@@ -26,16 +26,23 @@ body {
     color: #ffffff;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .brand a {
     color: #ffffff;
     font-size: 2.5rem;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .header a {
     color: #ffffff;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #ff8000;
 }
 
 .main {
