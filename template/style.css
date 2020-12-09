@@ -80,6 +80,13 @@ body {
     font-weight: bold;
 }
 
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
 .products li {
     list-style-type: none;
     padding: 0;
