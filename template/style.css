@@ -61,18 +61,30 @@ body {
 
 /* Home Screen */
 
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #ff8000;
+}
+
 .products {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .product-name {
     font-size: 2rem;
+    font-weight: bold;
 }
 
 .product-brand {
     font-size: 1.2rem;
+    color: #808080;
 }
 
 .product-price {
@@ -99,4 +111,8 @@ body {
 .product-image {
     max-width: 34rem;
     max-height: 34rem;
+}
+
+.product-rating {
+    margin-bottom: 1rem;
 }
