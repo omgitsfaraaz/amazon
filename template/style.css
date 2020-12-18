@@ -116,3 +116,14 @@ a:hover {
 .product-rating {
     margin-bottom: 1rem;
 }
+
+/* Side Navbar */
+
+.brand button {
+    font-size: 3rem;
+    padding: .5rem;
+    background: none;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
